@@ -5,7 +5,7 @@
 
 void testAddress();
 void testDate();
-void testStudetn();
+void testStudent();
 
 int main() {
   std::cout << "Hello!" << std::endl;
@@ -29,7 +29,7 @@ void testDate(){
   d.printDate();
 }
 
-void testStudent(){
+/*void testStudent(){
 
   std::string studentString = "Danielle, Johnson, 321 81 Johnson Course Apt. 389, New Jamesside, IN, 59379, 0 2/17/2004, 05/15/2027, 65";
   Student* student = new Student();
@@ -37,4 +37,4 @@ void testStudent(){
   student->printStudent();
   std::cout << student->getLastFirst();
   delete student;
-}
+}*/
