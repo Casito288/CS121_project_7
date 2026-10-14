@@ -7,29 +7,12 @@ void testAddress();
 void testDate();
 void testStudetn();
 
-int main {
-  //std::cout << "Hello!" << std::endl;
-  //testAddress();
+int main() {
+  std::cout << "Hello!" << std::endl;
+  testAddress();
   testDate();
   //testStudent();
   return 0;
-	
-  /*
-  Student.st;
-
-  std::ifstream inFile;
-  inFile.open("students.csv");
-  std::stringstream ss;
-
-  while(getline(inFile, studentString)){
-    ss.clear();
-    ss.str("");
-
-    ss.str(studentString);
-    Student s;
-    s.Student(studentString);
-  }
-  inFile.close();*/
 }
 
 void testAddress(){

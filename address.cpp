@@ -9,11 +9,11 @@ Address::Address(){
   zip = "";
 } // end Address constructor
 
-void Address::init(street, city, state, zip){
-  street = street;
-  city = city;
-  state = state;
-  zip = zip;
+void Address::init(std::string street, std::string city, std::string state, std::string zip){
+  this->street = street;
+  this->city = city;
+  this->state = state;
+  this->zip = zip;
 } // end init
 
 void Address::printAddress(){

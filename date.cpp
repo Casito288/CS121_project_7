@@ -31,8 +31,12 @@ void Date::init(std::string dateString){
 } // end init
 
 void Date::printDate(){
+  
+  std::string mString[13] {"ERROR", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
-  std::cout << month << " "
+  const std::string MONTHSTRING = mString[month];
+  std::cout << MONTHSTRING << " "
 	    << day << ", " 
 	    << year << std::endl;
 } // end printDate
+ 
